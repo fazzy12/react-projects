@@ -48,9 +48,35 @@ nav {
 main {
   padding: 57px 27px;
   margin: 0;
+  background-image: url(./images/Group.png);
+  background-repeat: no-repeat;
+  background-position: right 70%;
 }
 
 .main--tittle {
   margin: 0;
   font-size: 39px;
+  color: #DEEBF8;
+  letter-spacing: -0.05em;
+  
+}
+
+.main--facts {
+  margin-top: 46px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+  color: #DEEBF8;
+}
+
+.main--facts > li::marker{
+  color: #61DAF8;
+  font-size: 1.4rem;
+}
+
+.main--container{
+  margin: auto;
+  width: 50%;
 }
