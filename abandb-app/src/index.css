@@ -12,6 +12,14 @@ nav{
   box-shadow: 0px 2.98256px 7.4564px rgba(0,  0, 0, 0.1);
 }
 
+.gray{
+  color: #918E98;
+}
+
+.bold{
+  font-weight: bold;
+}
+
 .nav-logo{
   width: 100px;
 }
@@ -21,7 +29,7 @@ section{
 }
 
 .hero-image{
-  max-width: 400px;
+  width: 60%;
   align-self: center;
 }
 
@@ -32,11 +40,35 @@ section{
 
 .hero-heading{
   margin-bottom: 16px;
+  font-size: 100px;
 }
 
 .hero-text{
   margin-top: 0;
+  font-size: 30px;
+  width: 60%;
 }
 
+.card{
+  width: 175px;
+  font-size: 12px;
+}
 
+.card--image{
+  width: 100%;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+
+.card--stats{
+  display: flex;
+  align-items: center;
+}
+
+.card--star{
+  height: 17px;
+}
 
