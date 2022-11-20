@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './navBar';
 import HeroSection from './hero';
 import Card from './cards';
+// import data from './data';
+// console.log(data)
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,29 +17,13 @@ root.render(
     <Navbar/>
     <HeroSection/>
     <Card  
-      img='image12.png'
+      img='/image12.png'
       rating='5.0'
       reviewCount={6}
       country='USA'
       title='Life lessons with Katie Zaferes'
       price={136}
-    />
-    <Card  
-      img='wedding-photography 1.png'
-      rating='5.0'
-      reviewCount={6}
-      country='USA'
-      title='Life lessons with Katie Zaferes'
-      Price={136}
-    />
-    <Card  
-      img='mountain-bike 1.png'
-      rating='5.0'
-      reviewCount={6}
-      country='USA'
-      title='Life lessons with Katie Zaferes'
-      Price={136}
-    />
+    /> 
     </>
   </React.StrictMode>
 );
