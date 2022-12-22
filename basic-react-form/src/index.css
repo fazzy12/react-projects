@@ -1,5 +1,7 @@
+/* Import font from Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+/* Set page background and layout */
 body {
   background: #76b852;
   display: flex;
@@ -8,6 +10,7 @@ body {
   align-items: center;
 }
 
+/* Set style for form container */
 .form-container {
   width: 360px;
   background-color: white;
@@ -16,6 +19,7 @@ body {
   padding: 10px;
 }
 
+/* Set layout for form elements */
 .register-form {
   display: flex;
   flex-direction: column;
@@ -23,6 +27,7 @@ body {
   padding: 10px;
 }
 
+/* Set style for success message */
 .success-message {
   font-family: "Roboto", sans-serif;
   background-color: #3f89f8;
@@ -30,6 +35,7 @@ body {
   color: white;
 }
 
+/* Set style for form fields */
 .form-field {
   margin: 10px 0 10px 0;
   padding: 15px;
@@ -38,6 +44,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Set style for error messages */
 span {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -45,15 +52,18 @@ span {
   margin-bottom: 15px;
 }
 
+/* Set style for input fields */
 input {
   background: #f2f2f2;
 }
 
+/* Set style for input fields with errors */
 .error {
   border-style: solid;
   border: 2px solid #ffa4a4;
 }
 
+/* Set style for submit button */
 button {
   background: #4caf50;
   color: white;
